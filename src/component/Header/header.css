@@ -6,7 +6,7 @@ nav {
   box-sizing: border-box;
 }
 
-.ul_menuWrap {
+.menuWrap {
   display: flex;
   justify-content: space-between;
   margin: 6px 0;
@@ -16,7 +16,7 @@ nav {
   list-style: none;
 }
 
-.a_menu {
+.menu {
   display: inline-block;
   padding: 10px;
   font-size: 18px;
@@ -25,6 +25,6 @@ nav {
   transition: all .3s;
 }
 
-.a_menu:hover {
+.menu:hover {
   color: #56d5fa
 }

@@ -12,10 +12,10 @@ const activeStyle = {
 function Header() {
   return (
     <nav>
-      <ul className="ul_menuWrap">
+      <ul className="menuWrap">
         {menus.map(el => 
-          <li className="li_menuItem" key={el.name}>
-            <NavLink activeStyle={activeStyle} className="a_menu" exact to={el.path} title={el.name}>
+          <li key={el.name}>
+            <NavLink activeStyle={activeStyle} className="menu" exact to={el.path} title={el.name}>
               {el.name}
             </NavLink>
           </li>)}
