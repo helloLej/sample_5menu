@@ -1,0 +1,28 @@
+.async_btn {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  font-size: 18px;
+  background-color: #56d5fa;
+  border-radius: 8px;
+  margin: 0 10px;
+  outline: none;
+}
+
+.async_btn.active {
+  background-color: #29384b;
+}
+
+.async_wrap {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.async_wrap__result {
+  color: #56d5fa;
+  font-weight: 700;
+}
+
+.async_weather_img {
+  height: 200px;
+}
