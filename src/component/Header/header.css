@@ -1,0 +1,30 @@
+nav {
+  padding: 0 10px;
+  min-width: 360px;
+  width: 100%;
+  border-bottom: 1px solid #56d5fa;
+  box-sizing: border-box;
+}
+
+.ul_menuWrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+  padding: 0;
+  max-width: 500px;
+  min-width: 330px;
+  list-style: none;
+}
+
+.a_menu {
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  transition: all .3s;
+}
+
+.a_menu:hover {
+  color: #56d5fa
+}
