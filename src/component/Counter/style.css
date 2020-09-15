@@ -1,0 +1,20 @@
+.counter_btn {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: #56d5fa;
+  margin: 50px 12px;
+  outline: none;
+}
+
+.counter_value {
+  display: inline-block;
+  width: 100px;
+  font-size: 24px;
+}
+
+.counter_title {
+  font-weight: 500;
+}

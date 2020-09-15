@@ -1,0 +1,59 @@
+.grid_searchInput {
+  float: left;
+  margin: 12px 0;
+  padding-left: 10px;
+  width: 200px;
+  height: 24px;
+  outline: none;
+}
+
+.grid_table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+.grid_tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #56d5fa;
+}
+
+.grid_thead_tr {
+  background-color: #29384b;
+}
+
+.grid_th {
+  padding: 10px;
+  border: 1px solid #fff;
+  opacity: .7;
+}
+
+.grid_td {
+  padding: 10px;
+  border: 1px solid #fff;
+  opacity: .7;
+}
+
+.sortBtn {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #fff;
+
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+.desc {
+  border-top: 4px solid #fff;
+  border-bottom: 0;
+}
+
+.active {
+  opacity: 1;
+}
