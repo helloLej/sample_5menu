@@ -5,8 +5,7 @@ import { increase, decrease } from '../redux/modules/counter'
 
 function CounterContainer() {
   const state = useSelector((state) => ({
-    title: state.counter.title,
-    count: state.counter.count,
+    ...state.counter,
   }))
   const dispatch = useDispatch()
 

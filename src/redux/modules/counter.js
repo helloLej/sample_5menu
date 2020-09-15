@@ -1,5 +1,5 @@
-const PLUS = 'COUNTER/PLUS'
-const MINUS = 'COUNTER/MINUS'
+const PLUS = 'Counter/PLUS'
+const MINUS = 'Counter/MINUS'
 
 export const increase = () => ({ type: PLUS })
 export const decrease = () => ({ type: MINUS })
