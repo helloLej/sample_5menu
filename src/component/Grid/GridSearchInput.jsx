@@ -8,11 +8,10 @@ function GridSearchInput({setData, initialData, columns}) {
     setSearchKey(value)
 
     let filteredData = []
-    filteredData = [...initialData].filter(
-      (o) =>
-        String(o[columns[0]]).includes(value) ||
-        String(o[columns[1]]).includes(value) ||
-        String(o[columns[2]]).includes(value),
+    filteredData = [...initialData].filter((o) =>
+      String(o[columns[0]]).includes(value) ||
+      String(o[columns[1]]).includes(value) ||
+      String(o[columns[2]]).includes(value)
     )
     setData(filteredData)
   }
