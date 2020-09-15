@@ -1,0 +1,12 @@
+.div_wrap {
+  padding: 10px 20px;
+  min-width: 360px;
+  min-height: calc(100vh - 75px);
+  box-sizing: border-box;
+}
+
+.div_wrap>h1 {
+  margin: 20px 0;
+  font-size: 1.5em;
+  font-weight: 600;
+}

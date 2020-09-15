@@ -1,0 +1,62 @@
+.todo_wrap {
+  display: flex;
+}
+
+.todo_input {
+  flex: 9 1;
+  width: 300px;
+  height: 30px;
+  margin-right: 20px;
+  padding-left: 12px;
+  outline: none;
+  font-size: 12px;
+}
+
+.todo_addBtn {
+  flex: 1 1;
+  background: #56d5fa;
+  border: 0;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.todo_msg {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.todo_list {
+  border: 1px solid #56d5fa;
+  border-radius: 5px;
+}
+
+.todo_itemWrap {
+  display: flex;
+
+}
+
+.todo_list__item {
+  padding: 12px 0;
+  font-size: 16px;
+  color: #000;
+}
+
+.todo_list__itemWrap {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.todo_list__minusBtn {
+  margin-right: 24px;
+  margin-left: auto;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  border: 0;
+  border-radius: 4px;
+  background: #56d5fa;
+}
