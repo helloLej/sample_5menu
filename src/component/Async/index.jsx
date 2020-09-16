@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import CityMenu from './CityMenu';
-import WeatherContainer from '../../container/WeatherContainer';
+import CityMenu from './CityMenu'
+import WeatherContainer from '../../container/WeatherContainer'
 import './style.css'
 
-function Async({loading, error, result}) {
+function Async() {
   const [focusedCity, setFocusedCity] = useState('Seoul')
   
   const cities = ['Seoul', 'Tokyo', 'Beijing', 'Toronto']

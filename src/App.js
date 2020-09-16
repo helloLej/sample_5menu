@@ -1,13 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch } from 'react-router-dom'
-import logo from './logo.svg'
 import Layout from './common/Layout'
-import Header from './component/Header/Header'
-import Todo from './component/Todo/Todo'
-import Grid from './component/Grid/Grid'
-import Modal from './component/Modal/Modal'
+import Header from './component/Header'
+import Todo from './component/Todo'
+import Grid from './component/Grid'
+import Modal from './component/Modal'
 import CounterContainer from './container/CounterContainer'
-import Async from './component/Async/Async'
+import Async from './component/Async'
 
 import './App.css'
 
@@ -29,8 +28,6 @@ function App() {
           <Layout exact path="/async" component={Async} title="Async Actions" />
         </Switch>
       </Router>
-
-      {/* <img src={logo} className="App-logo" alt="logo" /> */}
     </div>
   )
 }

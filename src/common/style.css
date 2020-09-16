@@ -1,7 +1,7 @@
 .div_wrap {
   padding: 10px 20px;
   min-width: 360px;
-  min-height: calc(100vh - 75px);
+  min-height: calc(100vh - 45px);
   box-sizing: border-box;
 }
 

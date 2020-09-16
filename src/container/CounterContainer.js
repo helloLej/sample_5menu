@@ -10,13 +10,11 @@ function CounterContainer() {
   const dispatch = useDispatch()
 
   return (
-    <div>
-      <Counter
-        {...state}
-        onIncrease={() => dispatch(increase())}
-        onDecrease={() => dispatch(decrease())}
-      />
-    </div>
+    <Counter
+      {...state}
+      onIncrease={() => dispatch(increase())}
+      onDecrease={() => dispatch(decrease())}
+    />
   )
 }
 

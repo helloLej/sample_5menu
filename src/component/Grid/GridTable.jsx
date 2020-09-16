@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-const sortOrders = { age: 1, name: 1, weight: 1 }
 
 function GridTable({columns, data, setData}) {
   const [activeIdx, setActiveIdx] = useState('');

@@ -13,6 +13,7 @@ function GridSearchInput({setData, initialData, columns}) {
       String(o[columns[1]]).includes(value) ||
       String(o[columns[2]]).includes(value)
     )
+    
     setData(filteredData)
   }
 

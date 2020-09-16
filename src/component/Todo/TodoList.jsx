@@ -1,8 +1,7 @@
 import React from 'react'
-let keyNum = 0;
+let keyNum = 0
 
 function TodoList({todoList, setTodoList}) {
-  
   const removeItem = (id) => {
     const filtered = todoList.filter(el => el.id !== id)
     setTodoList(filtered)
