@@ -8,7 +8,7 @@ This project is a simple react sample with 5 menus.
 - Counter
 - Async
 
-were used react, react-router-dom, redux, react-redux, redux-thunk.
+`react`, `react-router-dom`, `redux`, `react-redux`, `redux-thunk` were used.
 
 ## Todo
 
@@ -40,7 +40,7 @@ Thanks to redux, I could handle the state in common.
 
 ## Async
 
-`redux`, `redux-thunk` was used.
+`redux`, `redux-thunk` were used.
 
 There is a city name list.
 
